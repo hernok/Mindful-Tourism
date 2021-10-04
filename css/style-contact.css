@@ -1,6 +1,37 @@
 header {
+  background-color: #bec3c0;
+  display: flex;
+  border-radius: 50px;
+}
+
+.navbar {
+  border: solid black;
+  width: auto;
+  position: absolute;
+}
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+li {
+  width: 90%;
+  padding: 20px 0;
+  margin: 0 20px;
 }
 body {
+  background-color: #3a4540;
+}
+.customer-support {
+  width: 30%;
+  float: right;
+}
+.fixedlogo {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  height: 150px;
 }
 footer {
 }
