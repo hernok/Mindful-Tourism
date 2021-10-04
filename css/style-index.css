@@ -22,13 +22,22 @@ li {
   margin: 0 20px;
 }
 body {
-  background-color: #3a4540;
+  background-image: url("/assets/images/nature.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.main-title-text {
+  color: #bec3c0;
+  font-size: 3rem;
+  text-align: center;
+  bottom: 50px;
+  left: 50%;
+  position: absolute;
+  text-shadow: 2px 2px #3a4540;
 }
 .fixedlogo {
   position: fixed;
   right: 50px;
   bottom: 50px;
   height: 150px;
-}
-footer {
 }
