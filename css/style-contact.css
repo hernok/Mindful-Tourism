@@ -1,7 +1,7 @@
 header {
   background-color: #bec3c0;
   display: flex;
-  border-radius: 50px;
+  border-radius: 20px;
 }
 
 .navbar {
@@ -15,31 +15,44 @@ ul {
   justify-content: flex-end;
   list-style: none;
 }
-li {
-  width: 90%;
-  padding: 20px 0;
-  margin: 0 20px;
+.nav-button {
+  position: relative;
+  top: 10px;
+  left: 30px;
+  height: 30px;
+  width: 90px;
+  background-color: #85c9ab;
 }
+
 body {
   background-color: #3a4540;
-}
-.post {
-  color: #bec3c0;
-  font-size: 1.5rem;
-  border: #bec3c0 solid;
-  width: 420px;
-}
-.customer-support {
-  width: 50%;
-  position: relative;
-  float: right;
 }
 .trivia {
   color: #bec3c0;
   font-size: 1.5rem;
   border: #bec3c0 solid;
-  width: 420px;
+  width: 500px;
+  padding: 20px;
 }
+.post {
+  color: #bec3c0;
+  font-size: 1.5rem;
+  border: #bec3c0 solid;
+  width: 500px;
+  padding: 20px;
+}
+.contact-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.customer-support {
+  width: 40%;
+  position: absolute;
+  top: 150px;
+  right: 550px;
+}
+
 .fixedlogo {
   position: fixed;
   right: 50px;

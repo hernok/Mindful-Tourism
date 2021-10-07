@@ -1,7 +1,7 @@
 header {
   background-color: #bec3c0;
   display: flex;
-  border-radius: 50px;
+  border-radius: 20px;
 }
 .navbar {
   border: solid black;
@@ -14,11 +14,15 @@ ul {
   justify-content: flex-end;
   list-style: none;
 }
-li {
-  width: 90%;
-  padding: 20px 0;
-  margin: 0 20px;
+.nav-button {
+  position: relative;
+  top: 10px;
+  left: 30px;
+  height: 30px;
+  width: 90px;
+  background-color: #85c9ab;
 }
+
 body {
   background-color: #3a4540;
 }

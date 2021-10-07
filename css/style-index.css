@@ -1,7 +1,7 @@
 header {
   background-color: #bec3c0;
   display: flex;
-  border-radius: 50px;
+  border-radius: 20px;
 }
 
 .navbar {
@@ -15,6 +15,14 @@ ul {
   justify-content: flex-end;
   list-style: none;
   position: relative;
+}
+.nav-button {
+  position: relative;
+  top: 10px;
+  left: 30px;
+  height: 30px;
+  width: 90px;
+  background-color: #85c9ab;
 }
 li {
   width: 100%;
