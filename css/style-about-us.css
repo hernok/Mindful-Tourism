@@ -21,7 +21,12 @@ ul {
   width: 90px;
   background-color: #85c9ab;
 }
-
+.titlenavbar {
+  width: 100%;
+}
+h1 {
+  text-align: center;
+}
 body {
   background-color: #3a4540;
 }
