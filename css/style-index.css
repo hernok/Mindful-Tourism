@@ -33,6 +33,7 @@ body {
   background-image: url("/assets/images/nature.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
+  background-color: #3a4540;
 }
 .main-title-text {
   color: #bec3c0;
