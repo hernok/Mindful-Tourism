@@ -14,7 +14,7 @@ h1 {
 ul {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  position: relative;
   list-style: none;
 }
 .nav-button {
